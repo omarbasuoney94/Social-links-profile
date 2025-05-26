@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(0, 0%, 8%);
+    text-align: center;
+}
+
+.main{
+    width: 350px;
+    background: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    width: 70px;
+    height: auto;
+}
+
+.imgo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+}
+
+.name h3{
+    font-size: 22px;
+}
+
+.name p{
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+.pop{
+    color: rgb(179, 179, 179);
+}
+
+.links{
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    background: hsl(0, 0%, 20%);
+    margin: 5px;
+    padding: 7px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+nav a:hover{
+    background: hsl(75, 94%, 57%);
+    color: #222222;
+}
+
+
+@media (max-width: 380px){
+    .main{
+        max-width: 300px;
+    }
+}
+
